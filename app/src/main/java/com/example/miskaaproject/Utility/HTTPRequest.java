@@ -31,6 +31,7 @@ public class HTTPRequest {
         okHttpClient.newCall(request).enqueue(new Callback() {
             @Override
             public void onFailure(@NotNull Call call, @NotNull IOException e) {
+                flagImgView.setImageResource(R.drawable.asia);
 
             }
 
