@@ -32,7 +32,6 @@ public class HTTPRequest {
             @Override
             public void onFailure(@NotNull Call call, @NotNull IOException e) {
                 flagImgView.setImageResource(R.drawable.asia);
-
             }
 
             @Override
